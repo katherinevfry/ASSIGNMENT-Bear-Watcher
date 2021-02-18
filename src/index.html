@@ -6,6 +6,25 @@
   <title>Test</title>
 </head>
 <body>
-  <div id="app"></div>
+    <!-- header -->
+    <h1>BEARS</h1>
+    
+    <!-- form -->
+    <div class="card card-body w-25 p-3">
+      <h3>Build a Bear</h3>
+      <form id="bear-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="imageUrl" class="form-label">Image Url</label>
+          <input type="url" class="form-control" id="imageUrl" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+    <!-- card -->
+ <div id="bearCave"></div>
 </body>
 </html>
