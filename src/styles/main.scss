@@ -1,9 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-  background-color: antiquewhite;
-  color: brown;
-  text-align: center;
-  margin-top: 100px;
+.bear-header {
+  background-image: url("/src/images/bear-picture.jpg");
+  background-size: cover;
+  height:300px;
+}
+
+.header-text {
+  color: white;
+}
+
+#build-a-bear {
+  border: solid black 1px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.toggle-content {
+  display: none;
+}
+
+.bearDen {
+  border: solid black 1px;
+  border-radius: 25px;
+  margin: 10px;
 }
