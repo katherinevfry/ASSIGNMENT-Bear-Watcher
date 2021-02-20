@@ -1,7 +1,7 @@
 import getBearStuff from './getBearStuff';
 
-const buttonEvents = () => {
+const river = () => {
   document.querySelector('#submit').addEventListener('click', getBearStuff);
 };
 
-export default buttonEvents;
+export default river;

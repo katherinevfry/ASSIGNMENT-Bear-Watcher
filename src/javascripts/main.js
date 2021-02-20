@@ -1,9 +1,11 @@
-import buttonEvents from './helpers/buttonEvents';
+import bearForm from './components/bearForm';
+import river from './helpers/river';
 
 import '../styles/main.scss';
 
 const init = () => {
-  buttonEvents();
+  bearForm();
+  river();
 };
 
 init();
