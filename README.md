@@ -16,8 +16,8 @@ The user would like to keep track of bears in Katmai National Park, along with a
 - Form for the user to submit a bear name and upload a picture
 - Cards to display the submitted bears
 ## Screenshots of your project
-![screenshot]()
-![screenshot]()
+![screenshot](https://github.com/katherinevfry/ASSIGNMENT-Bear-Watcher/blob/main/src/images/Screenshot%20(27).png)
+![screenshot](https://github.com/katherinevfry/ASSIGNMENT-Bear-Watcher/blob/main/src/images/Screenshot%20(28).png)
 
 Link to Loom video walkthrough of your app 
 https://www.loom.com/share/d1b7facd3dca4b41a0b4a219c8bdbb23
