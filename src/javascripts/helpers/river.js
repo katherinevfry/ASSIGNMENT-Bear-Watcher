@@ -1,7 +1,7 @@
-import bearBuilder from '../components/bearBuilder';
+import { getBearStuff } from '../components/bearBuilder';
 
 const river = () => {
-  document.querySelector('#submit').addEventListener('click', bearBuilder);
+  document.querySelector('#submit').addEventListener('click', getBearStuff);
 };
 
 export default river;
