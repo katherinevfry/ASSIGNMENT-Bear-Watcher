@@ -7,7 +7,7 @@ This simple web applications allows the user to track the bears of Katmai Nation
 ## Link to your wireframes/prototype
 https://www.figma.com/file/4Junm3mKfybm5pcaHf1pob/Untitled?node-id=1%3A2
 ## Link to the deployed project 
-
+https://kf-bear-watcher.netlify.app/
 ## Link to your project board
 https://github.com/katherinevfry/ASSIGNMENT-Bear-Watcher/projects/1
 ## Description of the user
