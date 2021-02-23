@@ -1,4 +1,5 @@
 import printToDom from '../helpers/printToDom';
+import bears from '../helpers/data/bearsData';
 
 const bearBuilder = (array) => {
   let card = '';
@@ -13,4 +14,21 @@ const bearBuilder = (array) => {
   printToDom('#bearCave', card);
 };
 
-export default bearBuilder;
+const getBearStuff = (e) => {
+  e.preventDefault();
+
+  const name = document.querySelector('#name').value;
+  const imgUrl = document.querySelector('#imgUrl').value;
+
+  const obj = {
+    name,
+    imgUrl,
+  };
+
+  bears.push(obj);
+  bearBuilder(bears);
+
+  document.querySelector('form').reset();
+};
+
+export default getBearStuff;
