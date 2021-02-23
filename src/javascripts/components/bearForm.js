@@ -1,4 +1,6 @@
 import printToDom from '../helpers/printToDom';
+import { bearBuilder } from './bearBuilder';
+import bears from '../helpers/data/bearsData';
 
 const bearForm = () => {
   const bearPage = `
@@ -25,13 +27,13 @@ const bearForm = () => {
  </div>
  </div>
   
-  <!-- card -->
   <div class='shadow-sm p-4 bearDen'>
   <h4 class='text-left'>The Bear Den</h4>
 <div class='d-flex flex-row flex-wrap justify-content-center' id='bearCave'></div>
 </div>`;
 
   printToDom('body', bearPage);
+  bearBuilder(bears);
 };
 
 export default bearForm;

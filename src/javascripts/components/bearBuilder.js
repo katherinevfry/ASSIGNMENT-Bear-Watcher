@@ -31,4 +31,4 @@ const getBearStuff = (e) => {
   document.querySelector('form').reset();
 };
 
-export default getBearStuff;
+export { bearBuilder, getBearStuff };
